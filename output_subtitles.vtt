@@ -1,0 +1,330 @@
+WEBVTT
+X-TIMESTAMP-MAP=LOCAL:00:00:00.000,MPEGTS:127826
+
+1
+00:00:01.501 --> 00:00:03.003
+Welcome to Practical
+
+2
+00:00:03.003 --> 00:00:06.306
+Multi AI Agents
+and Advanced Use Cases with CrewAI.
+
+3
+00:00:07.007 --> 00:00:10.477
+This is a very practical course,
+meaning you hear about and learn
+
+4
+00:00:10.477 --> 00:00:14.714
+how to build yourself agentic systems
+that aren't just shiny technology,
+
+5
+00:00:14.914 --> 00:00:18.985
+but they can be deployed and create
+real value and application settings
+
+6
+00:00:19.219 --> 00:00:24.219
+right now. Multi AI Agent systems
+involve multiple AI agents working together
+
+7
+00:00:24.958 --> 00:00:29.958
+to achieve complex tasks by collaborating,
+delegating, and sharing information.
+
+8
+00:00:30.630 --> 00:00:34.067
+If you took the previous
+multi-AI agent systems course,
+
+9
+00:00:34.300 --> 00:00:38.071
+you learn that multiple agents
+can be created, each with specific tasks
+
+10
+00:00:38.071 --> 00:00:42.542
+or roles, and these agents can collaborate
+to perform complex workflows.
+
+11
+00:00:43.009 --> 00:00:47.480
+In this course, you'll learn how to build
+agent-based apps for even more advanced
+
+12
+00:00:47.480 --> 00:00:50.917
+use cases,
+and you see numerous real use cases
+
+13
+00:00:50.917 --> 00:00:53.887
+based on what
+people are actually doing in practice.
+
+14
+00:00:54.087 --> 00:00:57.957
+When you're building multi-agent
+applications, a key challenge is balancing
+
+15
+00:00:57.957 --> 00:01:02.829
+the speed and quality of results
+while also maintaining consistency.
+
+16
+00:01:03.296 --> 00:01:06.666
+Different model choices
+and sizes can impact these factors.
+
+17
+00:01:06.966 --> 00:01:11.137
+In this course, you'll learn to rigorously
+test your application by measuring
+
+18
+00:01:11.137 --> 00:01:15.241
+key metrics that you can then use
+to keep on driving further improvements.
+
+19
+00:01:15.708 --> 00:01:19.112
+You'll also learn to train your agents
+using human feedback
+
+20
+00:01:19.179 --> 00:01:22.182
+to keep on improving your application over
+time.
+
+21
+00:01:22.248 --> 00:01:26.653
+It's my pleasure to be here with Joao Moura,
+who is founder of CrewAI
+
+22
+00:01:26.653 --> 00:01:29.656
+and Joao will be your instructor
+for this course.
+
+23
+00:01:30.290 --> 00:01:34.694
+Joao also taught the previous course
+on Multi AI Agent Systems,
+
+24
+00:01:34.761 --> 00:01:35.795
+welcome back.
+
+25
+00:01:35.795 --> 00:01:37.163
+Thank you so much.
+
+26
+00:01:37.163 --> 00:01:39.065
+so good to be back here with you.
+
+27
+00:01:39.065 --> 00:01:42.502
+And with this new practical course
+on multi-agent systems.
+
+28
+00:01:42.936 --> 00:01:47.073
+We're seeing so many companies
+building multi-agent AI applications,
+
+29
+00:01:47.307 --> 00:01:51.544
+running in aggregate,
+tens of millions of agents using CrewAI.
+
+30
+00:01:52.011 --> 00:01:55.014
+And creating more complex agent workflows
+that involve
+
+31
+00:01:55.081 --> 00:01:58.751
+multiple agents
+working parallel, multiple crews as well,
+
+32
+00:01:59.219 --> 00:02:03.123
+and doing so much rigorous performance
+testing and training steps.
+
+33
+00:02:03.490 --> 00:02:07.827
+So, Joao, in the previous course
+you had explained and demonstrated
+
+34
+00:02:07.827 --> 00:02:11.498
+the basic building blocks
+of multi-agent systems, things
+
+35
+00:02:11.498 --> 00:02:15.368
+like how agents can work together
+on the tasks, how they can use tools,
+
+36
+00:02:15.702 --> 00:02:17.871
+how you can build
+some really cool applications
+
+37
+00:02:17.871 --> 00:02:19.973
+with relatively few lines of code.
+
+38
+00:02:19.973 --> 00:02:21.741
+Maybe you can say a bit about what
+
+39
+00:02:21.741 --> 00:02:23.977
+learners can look forward to
+in this course.
+
+40
+00:02:23.977 --> 00:02:28.014
+Sure, we will start with a quick review
+of agentic systems.
+
+41
+00:02:28.248 --> 00:02:31.484
+You will then learn
+how to integrate your multi-agent
+
+42
+00:02:31.518 --> 00:02:34.521
+automation
+with internal and external systems.
+
+43
+00:02:34.787 --> 00:02:38.725
+This enables your app to perform actions
+like query internal data,
+
+44
+00:02:39.025 --> 00:02:42.862
+calling existing systems, sending emails,
+and so much more.
+
+45
+00:02:43.596 --> 00:02:48.596
+Next, you'll learn how to create a variety
+of crew setups from sequential
+
+46
+00:02:48.635 --> 00:02:53.139
+to parallel and anything in between,
+including a few hybrid setups.
+
+47
+00:02:53.706 --> 00:02:56.409
+You will learn
+how to run tasks in parallel,
+
+48
+00:02:56.409 --> 00:02:59.479
+and also how to connect
+multiple crews in the pipeline.
+
+49
+00:03:00.046 --> 00:03:03.249
+Then we will look at how you can optimize
+the performance
+
+50
+00:03:03.249 --> 00:03:07.020
+of your multi-agent systems
+using testing and training methods.
+
+51
+00:03:07.387 --> 00:03:10.356
+After that, you will learn how to create
+crews that
+
+52
+00:03:10.356 --> 00:03:14.093
+employ multiple different LLM models
+to complete a task.
+
+53
+00:03:14.494 --> 00:03:18.965
+For example, you could have a researcher
+agent using a smaller and faster model
+
+54
+00:03:19.065 --> 00:03:23.836
+for a relatively simple task,
+and the writer agent using a large model
+
+55
+00:03:23.836 --> 00:03:27.273
+that has been fine tuned
+to reflect your company's brand voice.
+
+56
+00:03:27.874 --> 00:03:31.044
+I will be referring to this
+as a multi-model approach
+
+57
+00:03:31.044 --> 00:03:35.815
+that lets you mix and match multiple
+LLM models based on the task at hand,
+
+58
+00:03:36.115 --> 00:03:39.886
+which can help you build a more efficient
+and customized AI system.
+
+59
+00:03:41.054 --> 00:03:43.823
+Many people have worked to create this
+course.
+
+60
+00:03:43.823 --> 00:03:48.061
+I'd like to thank the whole CrewAI
+team and from DeepLearning.AI,
+
+61
+00:03:48.061 --> 00:03:52.732
+Esmaeil Gargari and Geoff Ladwig
+have also contributed to this course.
+
+62
+00:03:53.166 --> 00:03:55.835
+This course is going to be a lot of fun.
+
+63
+00:03:55.835 --> 00:04:00.673
+You will build several practical apps
+like an automated project planning, lead
+
+64
+00:04:00.673 --> 00:04:02.942
+scoring and engagement automation
+
+65
+00:04:02.942 --> 00:04:06.346
+support, data
+analysis and content creation at scale.
+
+66
+00:04:06.813 --> 00:04:11.084
+I've really enjoyed using CrewAI myself
+and I'm confident that you will too.
+
+67
+00:04:11.651 --> 00:04:13.720
+Let's
+go on to the next video to get started.
+
