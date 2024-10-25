@@ -151,9 +151,9 @@ def process_vtt_file(file_path):
 
 if __name__ == "__main__":
     # URL da legenda do seu exemplo
-    # subtitle_url = "https://dyckms5inbsqq.cloudfront.net/crewAI/C2/L0/subtitle/eng/sc-crewAI-C2-L0-eng.m3u8"
+    subtitle_url = "https://dyckms5inbsqq.cloudfront.net/crewAI/C2/L2/subtitle/eng/sc-crewAI-C2-L2-eng.m3u8"
 
-    # download_subtitles(subtitle_url, "output_subtitles.vtt")
+    download_subtitles(subtitle_url, "output_subtitles.vtt")
     
     # Extrair o diálogo formatado
     file_path = 'output_subtitles.vtt'  # Substitua pelo caminho do seu arquivo
